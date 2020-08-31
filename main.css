@@ -1,0 +1,148 @@
+/*alinhamento base*/
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color:white;
+}
+
+header .container{
+    display:inline-block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header .header-left{
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 20px;
+    
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*Filme Principal*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/imagem_de_fundo.jpg');
+   
+    height:400px;
+    background-size:cover;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal{
+    margin-bottom: 40px;
+}
+
+
+
+.titulo{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.descricao{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #fff;
+
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all; 
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container{
+    margin: 20px;
+}
+
+.filme-principal .container{
+    width: 50%;
+}
+
+.box-filme{
+    height: 100%;
+    width:  100%;
+    
+    display: block;
+}
+
+.carousel-filme{
+    margin-top: 5px;
+}
+
+/*class*/
+
+.header-rigth i {
+    margin: 0 1280px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.header-logo img{
+    max-width: 120px;
+}
+
+.header-rigth {
+    color: white;
+    text-decoration: none;
+}
+.header-rigth a{
+    margin: 50;
+}
+
+.{
+    margin:  10px;
+
+}
